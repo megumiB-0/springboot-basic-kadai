@@ -6,6 +6,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.springkadaiform.form.ContactForm;
 
@@ -26,17 +27,21 @@ public class ContactFormController {
 	public String submitForm(
 			@Validated ContactForm form, //入力を受け取る
 			BindingResult result,		 //チェック結果を受け取る
-			Model model) {				 //画面にデータを渡す
+			RedirectAttributes redirectAttributes) {				 //画面にデータを渡す
 		if(result.hasErrors()) {
 			//formにリダイレクトして再表示
 			return "contactFormView";
 		}
 		//入力OK→確認画面へ
-		model.addAttribute("contactForm",form);
+		redirectAttributes.addFlashAttribute("contactForm",form);
 		
-		// confirmにリダイレクトしてリストを再表示
+		// リダイレクトしてconfirmにリストを表示
+		return "redirect:/confirm";
+	}
+	//確認画面表示
+	@GetMapping("/confirm")
+	public String showConfirm(Model model) {
 		return "confirmView";
 	}
-	
 
 }
