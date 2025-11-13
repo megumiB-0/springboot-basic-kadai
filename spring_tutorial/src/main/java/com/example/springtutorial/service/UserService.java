@@ -2,6 +2,7 @@ package com.example.springtutorial.service;
 
 import java.util.List;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.example.springtutorial.entity.User;
@@ -10,9 +11,11 @@ import com.example.springtutorial.repository.UserRepository;
 @Service
 public class UserService {
 	private final UserRepository userRepository;
+	private final PasswordEncoder passwordEncoder;
 	//依存性の注入（DI）を行う（コンストラクタインジェクション）
-	public UserService(UserRepository userRepository) {
+	public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder) {
 		this.userRepository = userRepository;
+		this.passwordEncoder = passwordEncoder;
 	}
 	
 	//新規ユーザーの登録メソッド
@@ -30,7 +33,7 @@ public class UserService {
 		// ユーザー登録用のエンティティを作成
 		User user = new User();
 		user.setUserName(userName);
-		user.setPassword(password);
+		user.setPassword(passwordEncoder.encode(password));
 		user.setRoleId(roleId);
 		
 		//ユーザーの登録

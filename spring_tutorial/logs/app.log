@@ -1,24 +1,24 @@
-2025-10-29 14:42:27 [INFO] - Starting SpringTutorialApplication using Java 21.0.2 with PID 19362 (/Users/bonkohara_megumi/Development/spring_boot/spring_tutorial/target/classes started by bonkohara_megumi in /Users/bonkohara_megumi/Development/spring_boot/spring_tutorial)
-2025-10-29 14:42:27 [INFO] - The following 1 profile is active: "dev"
-2025-10-29 14:42:27 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-29 14:42:27 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-29 14:42:28 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29 14:42:28 [INFO] - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
-2025-10-29 14:42:28 [INFO] - Tomcat initialized with port 8080 (http)
-2025-10-29 14:42:28 [INFO] - Starting service [Tomcat]
-2025-10-29 14:42:28 [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-10-29 14:42:28 [INFO] - Initializing Spring embedded WebApplicationContext
-2025-10-29 14:42:28 [INFO] - Root WebApplicationContext: initialization completed in 1488 ms
-2025-10-29 14:42:29 [INFO] - init():フィルターを初期化します。
-2025-10-29 14:42:29 [INFO] - HikariPool-1 - Starting...
-2025-10-29 14:42:29 [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9fe513
-2025-10-29 14:42:29 [INFO] - HikariPool-1 - Start completed.
-2025-10-29 14:42:29 [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29 14:42:29 [INFO] - HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-10-29 14:42:29 [INFO] - HHH000026: Second-level cache disabled
-2025-10-29 14:42:29 [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29 14:42:29 [WARN] - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2025-10-29 14:42:30 [INFO] - HHH10001005: Database info:
+2025-11-06 22:10:29 [INFO] - Starting SpringTutorialApplication using Java 21.0.2 with PID 25721 (/Users/bonkohara_megumi/Development/spring_boot/spring_tutorial/target/classes started by bonkohara_megumi in /Users/bonkohara_megumi/Development/spring_boot/spring_tutorial)
+2025-11-06 22:10:29 [INFO] - The following 1 profile is active: "dev"
+2025-11-06 22:10:29 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-06 22:10:29 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-06 22:10:31 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-06 22:10:31 [INFO] - Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+2025-11-06 22:10:33 [INFO] - Tomcat initialized with port 8080 (http)
+2025-11-06 22:10:33 [INFO] - Starting service [Tomcat]
+2025-11-06 22:10:33 [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06 22:10:33 [INFO] - Initializing Spring embedded WebApplicationContext
+2025-11-06 22:10:33 [INFO] - Root WebApplicationContext: initialization completed in 4328 ms
+2025-11-06 22:10:33 [INFO] - init():フィルターを初期化します。
+2025-11-06 22:10:34 [INFO] - HikariPool-1 - Starting...
+2025-11-06 22:10:34 [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21079b88
+2025-11-06 22:10:34 [INFO] - HikariPool-1 - Start completed.
+2025-11-06 22:10:35 [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-06 22:10:35 [INFO] - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-06 22:10:35 [INFO] - HHH000026: Second-level cache disabled
+2025-11-06 22:10:36 [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-06 22:10:36 [WARN] - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-06 22:10:36 [INFO] - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.7.39
@@ -26,155 +26,25 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29 14:42:30 [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29 14:42:30 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29 14:42:31 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29 14:42:31 [INFO] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2025-10-29 14:42:31 [WARN] - Unable to start LiveReload server
-2025-10-29 14:42:31 [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-10-29 14:42:31 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29 14:42:31 [INFO] - HikariPool-1 - Shutdown initiated...
-2025-10-29 14:42:31 [INFO] - HikariPool-1 - Shutdown completed.
-2025-10-29 14:42:31 [INFO] - destroy():フィルターを破棄します。
-2025-10-29 21:24:47 [INFO] - Starting SpringTutorialApplication using Java 21.0.2 with PID 32147 (/Users/bonkohara_megumi/Development/spring_boot/spring_tutorial/target/classes started by bonkohara_megumi in /Users/bonkohara_megumi/Development/spring_boot/spring_tutorial)
-2025-10-29 21:24:47 [INFO] - The following 1 profile is active: "dev"
-2025-10-29 21:24:47 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-29 21:24:47 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-29 21:24:49 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29 21:24:49 [INFO] - Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
-2025-10-29 21:24:50 [INFO] - Tomcat initialized with port 8080 (http)
-2025-10-29 21:24:50 [INFO] - Starting service [Tomcat]
-2025-10-29 21:24:50 [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-10-29 21:24:50 [INFO] - Initializing Spring embedded WebApplicationContext
-2025-10-29 21:24:50 [INFO] - Root WebApplicationContext: initialization completed in 3382 ms
-2025-10-29 21:24:51 [INFO] - init():フィルターを初期化します。
-2025-10-29 21:24:51 [INFO] - HikariPool-1 - Starting...
-2025-10-29 21:24:51 [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a79968a
-2025-10-29 21:24:51 [INFO] - HikariPool-1 - Start completed.
-2025-10-29 21:24:52 [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29 21:24:52 [INFO] - HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-10-29 21:24:52 [INFO] - HHH000026: Second-level cache disabled
-2025-10-29 21:24:52 [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29 21:24:53 [WARN] - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2025-10-29 21:24:53 [INFO] - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.7.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-29 21:24:54 [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29 21:24:54 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29 21:25:33 [INFO] - Starting SpringTutorialApplication using Java 21.0.2 with PID 32244 (/Users/bonkohara_megumi/Development/spring_boot/spring_tutorial/target/classes started by bonkohara_megumi in /Users/bonkohara_megumi/Development/spring_boot/spring_tutorial)
-2025-10-29 21:25:33 [INFO] - The following 1 profile is active: "dev"
-2025-10-29 21:25:33 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-29 21:25:33 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-29 21:25:35 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29 21:25:35 [INFO] - Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
-2025-10-29 21:25:36 [INFO] - Tomcat initialized with port 8080 (http)
-2025-10-29 21:25:36 [INFO] - Starting service [Tomcat]
-2025-10-29 21:25:36 [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-10-29 21:25:36 [INFO] - Initializing Spring embedded WebApplicationContext
-2025-10-29 21:25:36 [INFO] - Root WebApplicationContext: initialization completed in 2977 ms
-2025-10-29 21:25:36 [INFO] - init():フィルターを初期化します。
-2025-10-29 21:25:36 [INFO] - HikariPool-1 - Starting...
-2025-10-29 21:25:37 [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@589783cf
-2025-10-29 21:25:37 [INFO] - HikariPool-1 - Start completed.
-2025-10-29 21:25:37 [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29 21:25:37 [INFO] - HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-10-29 21:25:37 [INFO] - HHH000026: Second-level cache disabled
-2025-10-29 21:25:38 [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29 21:25:38 [WARN] - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2025-10-29 21:25:38 [INFO] - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.7.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-29 21:25:39 [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29 21:25:39 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29 21:25:40 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29 21:25:41 [INFO] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2025-10-29 21:25:41 [INFO] - LiveReload server is running on port 35729
-2025-10-29 21:25:41 [INFO] - Tomcat started on port 8080 (http) with context path '/'
-2025-10-29 21:25:41 [INFO] - Started SpringTutorialApplication in 8.861 seconds (process running for 10.032)
-2025-10-29 21:25:46 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29 21:25:46 [INFO] - Initializing Servlet 'dispatcherServlet'
-2025-10-29 21:25:46 [INFO] - Completed initialization in 3 ms
-2025-10-29 21:25:46 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:25:46 [INFO] - preHandle():リクエスト:http://localhost:8080/loginメソッド：GET
-2025-10-29 21:25:46 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:25:46 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:25:46 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:26:05 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:26:05 [INFO] - preHandle():リクエスト:http://localhost:8080/adminuserメソッド：GET
-2025-10-29 21:26:05 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:26:05 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:26:05 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:26:14 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:26:14 [INFO] - preHandle():リクエスト:http://localhost:8080/loginメソッド：GET
-2025-10-29 21:26:14 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:26:14 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:26:14 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:26:32 [WARN] - Encoded password does not look like BCrypt
-2025-10-29 21:26:32 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:26:32 [INFO] - preHandle():リクエスト:http://localhost:8080/loginメソッド：GET
-2025-10-29 21:26:32 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:26:32 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:26:32 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:28:54 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:28:54 [INFO] - preHandle():リクエスト:http://localhost:8080/adminメソッド：GET
-2025-10-29 21:28:54 [ERROR] - エラーが発生しました。メソッド名：handleRequest,例外クラス名：org.springframework.web.servlet.resource.NoResourceFoundException
-2025-10-29 21:28:54 [WARN] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource admin.]
-2025-10-29 21:28:54 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:28:54 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:30:40 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:30:40 [INFO] - preHandle():リクエスト:http://localhost:8080/adminuserメソッド：GET
-2025-10-29 21:30:40 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:30:40 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:30:40 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:30:54 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:30:54 [INFO] - preHandle():リクエスト:http://localhost:8080/adminuserメソッド：GET
-2025-10-29 21:30:54 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:30:54 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:30:54 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:31:10 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:31:10 [INFO] - preHandle():リクエスト:http://localhost:8080/loginメソッド：GET
-2025-10-29 21:31:10 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:31:10 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:31:10 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:31:24 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:31:24 [INFO] - preHandle():リクエスト:http://localhost:8080/adminuserメソッド：GET
-2025-10-29 21:31:24 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:31:24 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:31:24 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:31:41 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:31:41 [INFO] - preHandle():リクエスト:http://localhost:8080/registerメソッド：POST
-2025-10-29 21:31:41 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:31:41 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:31:41 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:31:41 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:31:41 [INFO] - preHandle():リクエスト:http://localhost:8080/adminuserメソッド：GET
-2025-10-29 21:31:41 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:31:41 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:31:41 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:31:46 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:31:46 [INFO] - preHandle():リクエスト:http://localhost:8080/registerメソッド：POST
-2025-10-29 21:31:46 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:31:46 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:31:46 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 21:31:46 [INFO] - doFilter():フィルター処理を開始します。
-2025-10-29 21:31:46 [INFO] - preHandle():リクエスト:http://localhost:8080/adminuserメソッド：GET
-2025-10-29 21:31:46 [INFO] - postHandle():ステータスコード:200
-2025-10-29 21:31:46 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
-2025-10-29 21:31:46 [INFO] - doFilter():フィルター処理が完了しました。
-2025-10-29 22:20:32 [INFO] - Application shutdown requested.
-2025-10-29 22:20:32 [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29 22:20:32 [INFO] - Graceful shutdown complete
-2025-10-29 22:20:32 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29 22:20:32 [INFO] - HikariPool-1 - Shutdown initiated...
-2025-10-29 22:20:32 [INFO] - HikariPool-1 - Shutdown completed.
-2025-10-29 22:20:32 [INFO] - destroy():フィルターを破棄します。
+2025-11-06 22:10:38 [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-06 22:10:38 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06 22:10:39 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-06 22:10:40 [INFO] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-11-06 22:10:41 [INFO] - LiveReload server is running on port 35729
+2025-11-06 22:10:41 [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-11-06 22:10:41 [INFO] - Started SpringTutorialApplication in 14.015 seconds (process running for 16.483)
+2025-11-06 22:11:03 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06 22:11:03 [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-11-06 22:11:03 [INFO] - Completed initialization in 7 ms
+2025-11-06 22:11:03 [INFO] - doFilter():フィルター処理を開始します。
+2025-11-06 22:11:03 [INFO] - preHandle():リクエスト:http://localhost:8080/loginメソッド：GET
+2025-11-06 22:11:04 [INFO] - postHandle():ステータスコード:200
+2025-11-06 22:11:04 [INFO] - afterCompletion():コンテンツタイプ：text/html;charset=UTF-8
+2025-11-06 22:11:04 [INFO] - doFilter():フィルター処理が完了しました。
+2025-11-06 22:12:07 [INFO] - Application shutdown requested.
+2025-11-06 22:12:07 [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06 22:12:07 [INFO] - Graceful shutdown complete
+2025-11-06 22:12:07 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06 22:12:07 [INFO] - HikariPool-1 - Shutdown initiated...
+2025-11-06 22:12:07 [INFO] - HikariPool-1 - Shutdown completed.
+2025-11-06 22:12:07 [INFO] - destroy():フィルターを破棄します。
